@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Vsix xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
+	<Identifier Id="TodoHighlighter..c0b04fb7-c595-469f-b706-b193c4fde1cf">
+		<Name>TODO Highlighter</Name>
+		<Author>Yves Goergen</Author>
+		<Version>0.3</Version>
+		<Description xml:space="preserve">Places red boxes behind all the “TODO”s in the editor window.</Description>
+		<Locale>1033</Locale>
+		<License>License.txt</License>
+		<Icon>TodoHighlighter.png</Icon>
+		<PreviewImage>TodoHighlighter.png</PreviewImage>
+		<SupportedProducts>
+			<VisualStudio Version="10.0">
+				<Edition>Pro</Edition>
+			</VisualStudio>
+			<VisualStudio Version="11.0">
+				<Edition>Pro</Edition>
+			</VisualStudio>
+			<VisualStudio Version="12.0">
+				<Edition>Pro</Edition>
+			</VisualStudio>
+			<VisualStudio Version="14.0">
+				<Edition>Pro</Edition>
+			</VisualStudio>
+		</SupportedProducts>
+		<SupportedFrameworkRuntimeEdition MinVersion="4.0" MaxVersion="4.6" />
+	</Identifier>
+	<References />
+	<Content>
+		<MefComponent>|%CurrentProject%|</MefComponent>
+	</Content>
+</Vsix>
